@@ -1,11 +1,13 @@
 Create users info details form
 
-Framework & library: flask, sqlite3, pydantic, fast api </br>
+Backend Framework & library: flask, sqlite3, pydantic, fast api </br>
 Unit Test: pytest </br>
 Feature: get user api, add new user api, delete user api </br>
 db table name: usersinfo </br>
 Python version: 3.14 </br>
 users details: first name, last name, email, tel password, created time, updated time </br>
+
+Frontend Framework React, Vite
 
 Feature:
 -view existing user information </br>
@@ -28,10 +30,10 @@ deleteUser(id),DELETE,/api/users/{id},Matched </br>
 backend folder structure:
 backend/
 ├── app/
-│ ├── main.py # FastAPI routes and logic
-│ ├── database.py # SQLite connection & table setup
-│ ├── schemas.py # Pydantic models
-│ └── models.py # Database helper functions
+│ ├── main.py # FastAPI routes and logic </br>
+│ ├── database.py # SQLite connection & table setup </br>
+│ ├── schemas.py # Pydantic models </br>
+│ └── models.py # Database helper functions </br>
 ├── tests/
-│ └── test_main.py # Pytest unit tests
-└── requirements.txt
+│ └── test_main.py # Pytest unit tests </br>
+└── requirements.txt </br>
