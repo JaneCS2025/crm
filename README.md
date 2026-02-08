@@ -10,7 +10,7 @@ users details: first name, last name, email, tel password, created time, updated
 Feature:
 -view existing user information
 -add new user information
--update existing user 
+-update existing user
 -delete user
 
 <img width="785" height="551" alt="Screenshot 2026-02-08 at 1 59 47 PM" src="https://github.com/user-attachments/assets/135e1f22-c9a1-4e3f-96a4-4a5202f20d99" />
@@ -28,10 +28,10 @@ deleteUser(id),DELETE,/api/users/{id},Matched
 backend folder structure:
 backend/
 ├── app/
-│   ├── main.py          # FastAPI routes and logic
-│   ├── database.py      # SQLite connection & table setup
-│   ├── schemas.py       # Pydantic models
-│   └── models.py        # Database helper functions
+│ ├── main.py # FastAPI routes and logic
+│ ├── database.py # SQLite connection & table setup
+│ ├── schemas.py # Pydantic models
+│ └── models.py # Database helper functions
 ├── tests/
-│   └── test_main.py     # Pytest unit tests
+│ └── test_main.py # Pytest unit tests
 └── requirements.txt
