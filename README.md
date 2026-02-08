@@ -27,7 +27,7 @@ createUser(user),POST,/api/users,Matched </br>
 "updateUser(id, patch)",PUT,/api/users/{id},Matched </br>
 deleteUser(id),DELETE,/api/users/{id},Matched </br>
 
-backend folder structure:
+backend folder structure:</br>
 backend/ </br>
 ├── app/ </br>
 │ ├── main.py # FastAPI routes and logic </br>
