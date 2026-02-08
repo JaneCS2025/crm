@@ -28,12 +28,12 @@ createUser(user),POST,/api/users,Matched </br>
 deleteUser(id),DELETE,/api/users/{id},Matched </br>
 
 backend folder structure:
-backend/
-├── app/
+backend/ </br>
+├── app/ </br>
 │ ├── main.py # FastAPI routes and logic </br>
 │ ├── database.py # SQLite connection & table setup </br>
 │ ├── schemas.py # Pydantic models </br>
 │ └── models.py # Database helper functions </br>
-├── tests/
+├── tests/ </br>
 │ └── test_main.py # Pytest unit tests </br>
 └── requirements.txt </br>
